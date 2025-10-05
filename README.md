@@ -48,3 +48,8 @@ ollama pull llama3
 git clone https://github.com/GrimGamer1999/smart-shelf-llm.git
 cd smart-shelf-llm
 ```
+
+### 4. Install Python Dependencies
+```bash
+pip install -r requirements.txt
+```
