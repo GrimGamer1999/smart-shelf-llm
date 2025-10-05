@@ -34,10 +34,11 @@ sudo apt-get install tesseract-ocr
 ```
 
 ### 2. Install Ollama and Llama3
-```bash
-# Install Ollama
-curl -fsSL https://ollama.com/install.sh | sh
 
+**Install Ollama**
+Download from https://ollama.com/
+
+```bash
 # Pull Llama3 model
 ollama pull llama3
 ```
