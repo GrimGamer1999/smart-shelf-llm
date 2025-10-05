@@ -1,6 +1,7 @@
 # smart-shelf-llm
 
 LLM-powered grocery inventory management system using OCR and intelligent usage scheduling.
+
 **Project Report:** [LLM Powered Expiry Tracker with OCR-Based Product Logging (PDF)](https://github.com/GrimGamer1999/smart-shelf-llm/blob/main/LLM_Powered_Expiry_Tracker_with_OCR_Based_Product_Logging.pdf)
 
 ## Features
