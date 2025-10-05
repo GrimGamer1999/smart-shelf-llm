@@ -16,7 +16,7 @@ LLM-powered grocery inventory management system using OCR and intelligent usage 
 - Tesseract OCR
 - Ollama with Llama3 model
 
-## Installation
+## Installation & Usage
 
 ### 1. Install Tesseract OCR
 
@@ -34,7 +34,6 @@ sudo apt-get install tesseract-ocr
 ```
 
 ### 2. Install Ollama and Llama3
-
 ```bash
 # Install Ollama
 curl -fsSL https://ollama.com/install.sh | sh
@@ -52,4 +51,9 @@ cd smart-shelf-llm
 ### 4. Install Python Dependencies
 ```bash
 pip install -r requirements.txt
+```
+
+### 5. Run the App
+```bash
+streamlit run app.py
 ```
