@@ -1,0 +1,26 @@
+{
+  "MacCoffee": {
+    "category": "Coffee",
+    "quantity": "100g",
+    "expiry": "31-10-2025",
+    "added_date": "05-10-2025"
+  },
+  "Onions": {
+    "category": "Fresh Produce",
+    "quantity": "2 units",
+    "expiry": "19-10-2025",
+    "added_date": "05-10-2025"
+  },
+  "Tomatoes": {
+    "category": "Fresh Produce",
+    "quantity": "3 units",
+    "expiry": "10-10-2025",
+    "added_date": "05-10-2025"
+  },
+  "Basmati Reis": {
+    "category": "Rice/Grains",
+    "quantity": "1kg",
+    "expiry": "28-02-2027",
+    "added_date": "05-10-2025"
+  }
+}
