@@ -1,2 +1,50 @@
 # smart-shelf-llm
-AI-powered expiry tracker that uses OCR and LLMs to identify food items from images and predict expiry dates. Built with Streamlit for a sleek UI and Tesseract for text extraction.
+
+LLM-powered grocery inventory management system using OCR and intelligent usage scheduling.
+
+## Features
+
+- **OCR-Based Product Logging**: Upload photos of product labels to automatically extract name, category, quantity, and expiry date
+- **Intelligent Usage Scheduling**: AI-generated meal plans using Mixture of Experts approach (Nutrition, Budget, Recipe perspectives)
+- **Smart Removal Prompts**: Automated suggestions to remove expired items
+- **Fresh Produce Support**: Manual entry with AI-estimated shelf life
+- **Persistent Storage**: Inventory data saved between sessions
+
+## Prerequisites
+
+- Python 3.8+
+- Tesseract OCR
+- Ollama with Llama3 model
+
+## Installation
+
+### 1. Install Tesseract OCR
+
+**Windows:**
+- Download from: https://github.com/UB-Mannheim/tesseract/wiki
+- Add to PATH or set path in code
+
+**Mac:**
+```bash
+brew install tesseract
+```
+**Linux:**
+```bash
+sudo apt-get install tesseract-ocr
+```
+
+### 2. Install Ollama and Llama3
+
+```bash
+# Install Ollama
+curl -fsSL https://ollama.com/install.sh | sh
+
+# Pull Llama3 model
+ollama pull llama3
+```
+
+### 3. Clone Repository
+```bash
+git clone https://github.com/GrimGamer1999/smart-shelf-llm.git
+cd smart-shelf-llm
+```
